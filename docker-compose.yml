@@ -1,7 +1,7 @@
 version: "3"
 services:
     react:
-      image: reactjs:v1
+      image: reactjs:VERSION
       command: npm start
       stdin_open: true
       tty: true
